@@ -31,7 +31,7 @@
             <div class="contenedor">
                 <h1 class="titulo">AIRSOFT-SKILLS</h1>
                 <h3 class="title-a">Sé una estrella del air rock que siempre quisiste ser</h2>
-                <button>Ver más</button>
+                <button class="button">Ver más</button>
             </div>
         </section>
         <section id="productos" class="productos contenedor"><!--guitarras o producto-->
@@ -55,8 +55,54 @@
                 </div>
             </article>
         </section>
-        <footer>
-
+        <footer class="footer">
+            <div class="contenedor">
+                <div class="contacto">
+                    <figure>
+                        <img src="img/invie-white.png" alt="Logotipo blanco">
+                    </figure>
+                    <a href="tel:+573202020020"><strong>Teléfono </strong><span>3202020020</span></a>
+                    <a href="mailto:jeffersonmx@outlook.com"><strong>E-mail </strong><span>contacto</span></a>
+                </div>
+                <form class="formulario">
+                    <div class="col1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required/>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required/>
+                        <div class="sexo">
+                            <label for="mujer">
+                                <input type="radio" checked name="sexo" id="mujer" value="mujer"> Mujer
+                            </label>
+                            <label for="hombre">
+                                <input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+                            </label>
+                            <label for="otro">
+                                <input type="radio" name="sexo" id="otro" value="otro">Otro
+                            </label>
+                        </div>
+                        <div class="intereses">
+                            <label for="cotizacion">
+                                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotización
+                            </label>
+                            <label for="reclamos">
+                                <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+                            </label>
+                            <label for="comentarios">
+                                <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+                            </label>
+                            <label for="otros">
+                                <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="area">Comentarios</label>
+                        <textarea name="comentarios" id="area" cols="25" rows="5"></textarea>
+                        <input  class="button" type="submit" value="Enviar"/>
+                    </div>
+                </form>
+            </div>
         </footer>
 
     </body>

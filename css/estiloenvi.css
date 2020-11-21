@@ -9,12 +9,12 @@ body{
     font-family: 'Allerta', sans-serif;
     margin: 0;
 }
-button {
-    border-radius: 5px;
+.button {
+    border-radius: 10px;
     border: none;
     background: #fd324e;
     color: white;
-    padding: 7px 25px;
+    padding: 7px 20px;
 }
 .titulo {
     font-size: 70px;
@@ -56,6 +56,9 @@ button {
     display: inline-block;
     margin-left: 30px;
 }
+.menu a {
+    text-decoration: none;
+}
 .logotipo {
     display: inline-block;
 }
@@ -88,4 +91,49 @@ button {
 }
 .header {
     position: relative;
+}
+.footer {
+    background:  #1F313C;
+}
+.contacto figure {
+    display: block;
+    width: 220px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 0px
+
+}
+.contacto strong {
+    display: block;
+}
+.contacto a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px 70px 10px;
+}
+.footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .formulario {
+    display: flex;
+    width: 420px;
+    color: white;
+}
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+.col1 {
+    margin: 0px 15px 15px 15px;
+}
+.formulario label, .sexo, .intereses {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.col2 input{
+    margin-top: 20px;
+    width: 90px;
 }
