@@ -3,13 +3,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AIRSOFT</title>
+        <title>Precios</title>
         <link rel="stylesheet" href="css/estiloenvi.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap|Allerta&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section id="portada" class="portada background"><!--portada-->
-            <header id="header" class="header contenedor">
+        <header id="header" class="header background">
+            <div class="contenedor">
                 <figure class="logotipo">
                     <img src="img/invie.png" width="186" height="60" alt="Invie logotipo"><!--logo-->
                 </figure>
@@ -19,7 +19,7 @@
                             <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#productos">Productos</a>
+                            <a href="index.html#productos">Productos</a>
                         </li>
                         <li>
                             <a href="precios.html">Precios</a>
@@ -27,34 +27,38 @@
                     </ul>
                     <!--menú-->
                 </nav>
-            </header>
-            <div class="contenedor">
-                <h1 class="titulo">AIRSOFT-SKILLS</h1>
-                <h3 class="title-a">Sé una estrella del air rock que siempre quisiste ser</h2>
-                <button class="button">Ver más</button>
             </div>
-        </section>
-        <section id="productos" class="productos contenedor"><!--guitarras o producto-->
-            <h2>Nuestros productos</h2>
-            <article class="producto">
-                <img class="right" src="img/invie-electrica.png" width="346" alt="Air electric guitar">
-                <div class="contenedor-guitarra-a">
-                    <h3 class="title-b">Guitarra eléctrica</h3>
-                    <p>Una guitarra hecha para los amantes del air rock</p>
-                    <p> Hecha de madera caoba</p>
-                    <p>Incluye amplificador</p>
-                </div>
-            </article>
-            <article class="producto b">
-                <img class="left" src="img/invie-clasica.png" width="346" alt="Air classic guitar">
-                <div class="contenedor-guitarra-b">
-                    <h3 class="title-b">Guitarra clásica</h3>
-                    <p>Una guitarra con acabado sunburst</p>
-                    <p> Hecha de madera abedúl</p>
-                    <p>Incluye capo traste</p>
-                </div>
-            </article>
-        </section>
+        </header>
+        <div class="contenedor">
+            <section class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Precio</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Guitarra clásica</td>
+                            <td>$1000</td>
+                            <td>Para los amantes de lo clásico</td>
+                        </tr>
+                        <tr>
+                            <td>Guitarra eléctrica</td>
+                            <td>$1000</td>
+                            <td>Para que seas un rockstar</td>
+                        </tr>
+                        <tr>
+                            <td>Guitarra custom</td>
+                            <td>$1000</td>
+                            <td>Epérala muy pronto</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
         <footer class="footer">
             <div class="contenedor">
                 <div class="contacto">
@@ -104,7 +108,5 @@
                 </form>
             </div>
         </footer>
-
     </body>
-
 </html>
