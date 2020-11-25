@@ -24,6 +24,7 @@ table, td {
     padding: 7px 25px;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 .titulo {
     font-size: 70px;
@@ -47,7 +48,7 @@ table, td {
     font-family: 'Montserrat', sans-serif;
 }
 .background {
-    background-image:url('../img/background.png');
+    background-image:url("https://i.imgur.com/UlqUbFo.png");
     background-size: cover;
 }
 .portada{
@@ -83,7 +84,7 @@ table, td {
     position: relative;
 }
 .contenedor.margint {
-    margin-top: 80px;
+    margin-top: 150px;
 }
 .right {
     float: right;
