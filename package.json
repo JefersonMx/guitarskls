@@ -4,7 +4,9 @@
   "description": "Simple html structure",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,11 @@
   "homepage": "https://github.com/JefersonMx/guitarskls#readme",
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.11.1"
+ }
 }
