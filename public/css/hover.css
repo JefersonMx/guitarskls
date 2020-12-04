@@ -1,0 +1,16 @@
+.producto:hover {
+    background:rgba(220, 220, 220,1);
+}
+.producto:hover img, .logotipo:hover img{
+    transform: scale(1.2);
+}
+
+.li-1:hover , .li-2:hover , .li-3:hover {
+    transform: scale(1.05);
+}
+.button:hover {
+    transform: scale(1.2);
+}
+.portada:hover .header {
+    transform: translateY(0);
+}
